@@ -29,3 +29,5 @@ export function setter(name?: string, constValue?: any): any;
 export function setter(name?: string, transformFn?: (value: any) => any): any;
 export function toggle(target: any, propertyKey: string): any;
 export function toggle(name?: string): any;
+export function allObservable(options?: ({only?: Array<string>, except?: Array<string>})): any;
+
